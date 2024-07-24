@@ -1,8 +1,8 @@
-```markdown
-# Django API Web
+### Django API Web
 
-Esse é a atividade 2 do professor André, da disciplina de Banco de Dados, cujo objetivo é fazer uma API Web utilizando a tecnologia escolhida pelo grupo.
-O meu grupo escolheu Django.
+Esse é a atividade 2 do professor André, da disciplina de Banco de Dados, cujo objetivo é fazer uma API Web utilizando a tecnologia escolhida pelo grupo. O meu grupo escolheu Django.
+
+``` markdown
 
 ## Pré-requisitos
 
@@ -15,24 +15,25 @@ Certifique-se de ter os seguintes softwares instalados em seu sistema:
 ## Instalação
 
 Siga os passos abaixo para configurar e rodar o projeto localmente.
+```
 
 ### 1. Clonar o repositório
 
-```bash
+``` bash
 git clone https://github.com/felipequentino/bdAtividade-Joao-Felipe-Quentino.git
 cd seu-repositorio
 ```
 
 ### 2. Criar um ambiente virtual (opcional, mas recomendado)
 
-```bash
+``` bash
 python -m venv venv
 source venv/bin/activate  # No Windows use `venv\Scripts\activate`
 ```
 
 ### 3. Instalar as dependências
 
-```bash
+``` bash
 pip install -r requirements.txt
 ```
 
@@ -40,7 +41,7 @@ pip install -r requirements.txt
 
 Crie e aplique as migrações do banco de dados:
 
-```bash
+``` bash
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -49,13 +50,14 @@ python manage.py migrate
 
 Inicie o servidor de desenvolvimento:
 
-```bash
+``` bash
 python manage.py runserver
 ```
+
 A API estará disponível em `http://127.0.0.1:8000/api/usuarios/`.
 
 ## Estrutura do Projeto
 
-- `bdAtividade/`: Diretório principal do projeto Django.
-- `bdApp/`: Aplicativo Django com o modelo `Usuario`.
-- `manage.py`: Script para executar comandos administrativos do Django.
+-   `bdAtividade/`: Diretório principal do projeto Django.
+-   `bdApp/`: Aplicativo Django com o modelo `Usuario`.
+-   `manage.py`: Script para executar comandos administrativos do Django.
